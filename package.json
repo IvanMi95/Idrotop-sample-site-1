@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap-5-project-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "multiparty": "^4.2.3",
+    "nodemailer": "^6.8.0",
+    "nodemailer-mailgun-transport": "^2.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
